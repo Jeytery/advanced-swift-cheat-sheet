@@ -1,4 +1,4 @@
 # advanced-swift-cheat-sheet
 
 ### pages
-- [Memory] (memory.md)
+- [Memory](memory.md)
