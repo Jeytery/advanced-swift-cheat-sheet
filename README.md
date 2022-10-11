@@ -2,3 +2,4 @@
 
 ### pages
 - [Memory](memory.md)
+- [Method Dispatch](memory.md)
