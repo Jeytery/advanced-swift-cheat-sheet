@@ -2,7 +2,7 @@
 
 ### pages
 - [Memory](memory.md)
-- [Method Dispatch](memory.md)
+- [Method Dispatch](method-dispatch.md)
 
 
 ### shared links
