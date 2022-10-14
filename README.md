@@ -3,6 +3,7 @@
 ### pages
 - [Memory](memory.md)
 - [Method Dispatch](method-dispatch.md)
+- [async/await](method-dispatch.md)
 
 
 ### shared links
