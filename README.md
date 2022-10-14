@@ -1,6 +1,7 @@
 # advanced-swift-cheat-sheet
 
 ### pages
+- [Syntaxis](memory.md)
 - [Memory](memory.md)
 - [Method Dispatch](method-dispatch.md)
 - [async/await](method-dispatch.md)
