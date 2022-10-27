@@ -71,6 +71,48 @@ class Child: Parent {
 |NSObject Subclass|table (virtual)|message|
 
 
+### задачи 
+
+```swift 
+protocol Animal {
+    func a1()
+}
+
+extension Animal {
+    func a2() {
+        print("default")
+    }
+}
+
+class Dog: Animal {
+    func a1() {
+        print("dog: a1")
+    }
+    
+    func a2() {
+        print("dog: a2")
+    }
+}
+
+func main() {
+    let robert = Dog()
+    robert.a1()
+    robert.a2()
+    
+    let albert: Animal = Dog()
+    albert.a1()
+    albert.a2()
+}
+```
+``` 
+output: 
+dog: a1
+dog: a2
+dog: a1
+default
+```
+Так потому что a2() объясвлен в extension, в нем static диспатч. Dog просто дублирует его, поэтому все переменные типа Dog будут вызывать уже тот метод, который он определил, так работает свифт
+
 ### sources
 
 https://www.youtube.com/watch?v=t0ir1B_37Kc
