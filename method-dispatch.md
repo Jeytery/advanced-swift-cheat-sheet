@@ -11,6 +11,10 @@
 - самая быстрая (быстрее только inline)
 
 ### table 
+Два вида
+- virtual 
+- vitness
+
 
 ### messanges 
 
