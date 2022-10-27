@@ -45,6 +45,21 @@ class Child: Parent {
 
 
 ### messanges 
+- имеет алгоритмы кеширования для оптимизации
+- самый медленный тип диспечиризации
+
+```swift 
+class Parent {
+    func method1() {}
+    func method2() {}
+}
+
+class Child: Parent {
+    override func method1() {}
+    func method3()
+}
+```
+Класс Child имеет в себе ссылку на Parent. Потом уже рантайм найдет нужную реазлицаю (если нужно будет обращаться по цепочку внутрь и искать)
 
 
 ### sources
