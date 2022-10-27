@@ -1,5 +1,18 @@
 # Method Dispatch
 
+Виды диспатча 
+- static 
+- table
+- massages 
+
+### static 
+- разруливается на этапе компиляции (рантайм не участвует)
+- нельзя наследоваться и оверрайдить 
+
+### table 
+
+### messanges 
+
 
 ### sources
 
