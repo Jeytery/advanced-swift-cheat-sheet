@@ -15,6 +15,34 @@
 - virtual 
 - vitness
 
+- разруливается в рантайме. На этапе компиляции еще ничего не известно 
+- ипользует таблицы ссылок на методы
+- наследник имеет свою измененную версию таблицы
+
+```swift 
+class Parent {
+    func method1() {}
+    func method2() {}
+}
+
+class Child: Parent {
+    override func method1() {}
+    func method3()
+}
+```
+|offset| memory||
+| - | - | - |
+| |0xA00|Parent|
+|0|0x121|method1|
+|1|0x122|method2|
+
+|offset| memory||
+| - | - | - |
+| |0xA00|Child|
+|0|0x221|method1|
+|1|0x122|method2|
+|2|0x222|method3|
+
 
 ### messanges 
 
