@@ -62,6 +62,14 @@ class Child: Parent {
 ```
 Класс Child имеет в себе ссылку на Parent. Потом уже рантайм найдет нужную реазлицаю (если нужно будет обращаться по цепочку внутрь и искать)
 
+### по какому принципу диспатч выбирает swift?
+||init|extension|
+| - | - | - |
+|value type|static|static|
+|protocol|table (wintess)|static|
+|class|table (virtual)|static|
+|NSObject Subclass|table (virtual)|message|
+
 
 ### sources
 
