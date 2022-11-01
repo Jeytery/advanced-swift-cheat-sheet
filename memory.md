@@ -4,7 +4,7 @@
 
 ## links
 
-arc + memory leaks \
+arc + memory leaks + profiler \
 https://www.youtube.com/watch?v=GIy-qnGLpHU \
 https://www.youtube.com/watch?v=1LnipXiSrSM&t=373s \
 https://www.youtube.com/watch?v=1LnipXiSrSM&t=373s \
