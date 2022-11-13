@@ -8,6 +8,7 @@
 - [compiler](compiler.md)
 - [Phantom types](phantom-types.md)
 - [value/reference type](value-reference-type.md)
+- [array](array.md)
 
 ### shared links
 - [Big source of learning meterails](https://github.com/Jeytery/ios-learning-materials)
