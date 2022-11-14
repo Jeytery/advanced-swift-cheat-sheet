@@ -12,3 +12,5 @@
 
 ### shared links
 - [Big source of learning meterails](https://github.com/Jeytery/ios-learning-materials)
+
+https://www.youtube.com/watch?v=sUiMKuARzo0&t=1435s
